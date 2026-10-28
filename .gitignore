@@ -1,0 +1,27 @@
+# Local data and generated binaries
+/assets/
+/額外資料/
+/dist/
+/build/
+/tests/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environments and configuration
+.venv/
+venv/
+env/
+img_format/
+.env
+.env.*
+!.env.example
+
+# Packaging and runtime output
+*.spec
+*.log
+*.egg-info/
